@@ -4,7 +4,7 @@ A simple, responsive, and user-friendly calculator built using **HTML**, **CSS**
 
 ## 🔗 Live Demo
 
-[Try it here](https://simple-calculator-rosy-phi.vercel.app/)
+[Try it here](https://iam-azhar0.github.io/simple-calculator/)
 
 ## 🚀 Features
 
