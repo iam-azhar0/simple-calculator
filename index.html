@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Supports all languages and special characters. -->
+    <meta charset="UTF-8" />
+
+    <!-- 
+        width=device-width - Match device screen width.
+        initial-scale=1.0 - No zoom on load.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/png">
+    <title>Simple Calculator | By Azhar</title>
+    
+    <!-- SEO Meta Tags -->
+
+    <!-- Shows in Google search results under your title. -->
+    <meta name="description" content="A simple and responsive calculator built using HTML, CSS, and JavaScript. Supports basic arithmetic operations with a clean and user-friendly interface.">
+
+    <!-- Originally used to tell search engines what keywords are relevant to your webpage. -->
+    <meta name="keywords" content="calculator, simple calculator, responsive calculator, web calculator, calculator project, basic math, arithmetic operations">
+
+    <!-- specify the author of the webpage — that’s you, the creator or developer. -->
+    <meta name="author" content="Azhar Khan">
+    
+    <!-- Social Media (Optional Open Graph for Sharing) -->
+    <!-- Open Graph (Facebook/LinkedIn Sharing) -->
+    <meta property="og:title" content="Simple Web Calculator">
+    <meta property="og:description" content="A responsive and interactive calculator created using HTML, CSS, and JavaScript. Try it now!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./assets/meta-og-image.png">
+    <meta property="og:url" content="https://simple-calculator-rosy-phi.vercel.app/">
+
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled />
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="append('/')">÷</button>
+            <button onclick="append('*')">×</button>
+            <button onclick="append('-')">−</button>
+
+            <button onclick="append('7')">7</button>
+            <button onclick="append('8')">8</button>
+            <button onclick="append('9')">9</button>
+            <button onclick="append('+')">+</button>
+
+            <button onclick="append('4')">4</button>
+            <button onclick="append('5')">5</button>
+            <button onclick="append('6')">6</button>
+            <button onclick="calculate()" class="equal">=</button>
+
+            <button onclick="append('1')">1</button>
+            <button onclick="append('2')">2</button>
+            <button onclick="append('3')">3</button>
+
+            <button onclick="append('0')" class="zero">0</button>
+            <button onclick="append('.')">.</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
