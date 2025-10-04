@@ -4,7 +4,7 @@ A simple, responsive, and user-friendly calculator built using **HTML**, **CSS**
 
 ## 🔗 Live Demo
 
-[Try it here](https://iam-azhar0.github.io/simple-calculator/)
+[Try it here](https://iam-azhar-simple-calculator.vercel.app/)
 
 ## 🚀 Features
 
@@ -15,7 +15,7 @@ A simple, responsive, and user-friendly calculator built using **HTML**, **CSS**
 
 ## 📸 Preview
 
-![Calculator Preview](https://raw.githubusercontent.com/iam-azhar0/simple-calculator/refs/heads/main/meta-og-image.png)
+![Calculator Preview](https://raw.githubusercontent.com/iam-azhar0/simple-calculator/refs/heads/main/open-graph-image.png)
 
 ## 👨‍💻 Author
 
